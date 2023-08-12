@@ -27,6 +27,7 @@ export class Vehicle {
     constructor(registrationNumber: number, color: string) {
       super("Bus", registrationNumber, color);
     }
+      
   }
   
   export class Slot {
