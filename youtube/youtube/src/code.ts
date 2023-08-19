@@ -14,6 +14,7 @@ export abstract class Model {
   }
 }
 
+
 export class UserModel extends Model {
 
   protected name: string;
@@ -29,6 +30,7 @@ export class UserModel extends Model {
 
   }
 }
+
 
 export class ConsumerModel extends UserModel {
   protected isPremium: boolean;
