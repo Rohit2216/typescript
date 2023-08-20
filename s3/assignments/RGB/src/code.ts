@@ -1,6 +1,4 @@
 
-
-
 export class Entity{
   health:number;
   strength:number;
